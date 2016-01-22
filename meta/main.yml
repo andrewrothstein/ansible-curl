@@ -1,0 +1,29 @@
+---
+galaxy_info:
+  author: Andrew Rothstein
+  description: curl role
+  company: BlackRock
+  license:
+    - MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Fedora
+      versions:
+        - 21
+        - 22
+        - 23
+    - name: Ubuntu
+      versions:
+        - trusty
+        - vivid
+        - wily
+        - xenial
+
+  categories:
+    - development
+
+dependencies: []
+  
