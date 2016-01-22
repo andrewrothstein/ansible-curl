@@ -1,3 +1,8 @@
 ---
 - name: install...
-  package: name=curl state=latest
+  when: ansible_os_family == 'Debian'
+  apt: name=curl state=latest
+
+- name: install...
+  when: ansible_os_family == 'RedHat'
+  yum: name=curl state=latest
