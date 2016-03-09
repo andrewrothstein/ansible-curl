@@ -22,7 +22,7 @@ galaxy_info:
         - wily
         - xenial
 
-  categories:
+  galaxy_tags:
     - development
 
 dependencies: []
