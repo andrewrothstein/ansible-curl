@@ -1,5 +1,6 @@
 andrewrothstein.curl
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-curl.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-curl)
 
 Installs [curl](https://curl.haxx.se/)
 
