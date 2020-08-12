@@ -2,8 +2,6 @@
 - name: install...
   become: yes
   become_user: root
-  with_items:
-    - curl
   package:
-    name: '{{ item }}'
+    name: curl
     state: present
